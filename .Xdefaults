@@ -1,0 +1,53 @@
+! special
+*.foreground:   #839496
+*.background:   #002b36
+*.cursorColor:  #839496
+
+! black
+*.color0:       #073642
+*.color8:       #657b83
+
+! red
+*.color1:       #dc322f
+*.color9:       #cb4b16
+
+! green
+*.color2:       #859900
+*.color10:      #586e75
+
+! yellow
+*.color3:       #b58900
+*.color11:      #657b83
+
+! blue
+*.color4:       #268bd2
+*.color12:      #839496
+
+! magenta
+*.color5:       #d33682
+*.color13:      #6c71c4
+
+! cyan
+*.color6:       #2aa198
+*.color14:      #93a1a1
+
+! white
+*.color7:       #eee8d5
+*.color15:      #fdf6e3
+
+! font
+*.font: xft:Ubuntu Mono:size=15,xft:DejaVu Sans Mono:size=15,xft:DejaVu Serif:size=15
+
+! scrollbar
+*.scrollBar: false
+
+! urxvt clipboard
+URxvt.perl-ext-common: default,clipboard
+URxvt.iso14755: false
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+! urxvt misc
+URxvt.urgentOnBell: true
+URxvt.intensityStyles: false
+
