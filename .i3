@@ -1,1 +1,0 @@
-/home/boring/.i3/
